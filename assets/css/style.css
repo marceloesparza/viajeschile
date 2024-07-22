@@ -134,7 +134,7 @@ i {
 }
 
 .card-titulo {
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
     color: #212529;
     opacity: 100%;
@@ -179,9 +179,6 @@ footer {
 @media (max-width: 575.98px){
     .navbar-logo {
         padding-left: 2rem;
-    }
-    #section-quienessomos {
-        display: none;
     }
 }
 @media (max-width: 767.98px){
