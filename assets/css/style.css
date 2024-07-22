@@ -152,6 +152,9 @@ i {
 .form-label {
     color: #fff;
 }
+.etiquetaEnvioCorreo {
+    display: none;
+}
 
 /* Footer */
 footer {

@@ -184,8 +184,12 @@
                     <!-- Boton con Tooltip -->
                     <button id="enviarCorreo"  type="submit" class="btn btn-info d-block gap-2 d-md-block" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Dejanos un mensaje!!"><strong>Enviar</strong></button>
                 </form>
+                <div class="alert alert-info mt-1 etiquetaEnvioCorreo" role="alert">
+                    su mensaje a sido enviado con éxito!
+                  </div>
             </div>
         </div>
+        
     </section>    
 
      <!-- Pie de Pagina -->
@@ -238,12 +242,19 @@
                 });
                 }
             });
-            /* activacion tooltip */
-            $('[data-bs-toggle="tooltip"]').tooltip();
-            /* mensaje de envio de correo */
+            /* display etiqueta de envio correo */
+            $("#enviarCorreo").click(function(){
+                $(".etiquetaEnvioCorreo").css({
+                    "display":"block"
+                });
+            });
+            /* display mensaje de envio correo */
             $("#enviarCorreo").on("click", function(){
                 alert("El correo fue enviado correctamente")
             });
+
+            /* activacion tooltip */
+            $('[data-bs-toggle="tooltip"]').tooltip();
         });
     </script>
 
