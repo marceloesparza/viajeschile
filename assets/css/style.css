@@ -192,13 +192,3 @@ footer {
         height: 160px;
     }
 }
-
-@media (max-width: 991px){
-    .hero-titulo {
-        font-size: 1rem;
-        margin-bottom: 1rem;
-    }
-    .hero-subtitulo {
-        font-size: 1rem;
-    }
-}
